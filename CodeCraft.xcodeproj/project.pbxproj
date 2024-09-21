@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EA3DDB62C9F15C900976AEF /* CodeCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */; };
+		3EA3DDB82C9F15C900976AEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB72C9F15C900976AEF /* ContentView.swift */; };
+		3EA3DDBA2C9F15CA00976AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */; };
+		3EA3DDBE2C9F15CA00976AEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3DDBD2C9F15CA00976AEF /* Preview Assets.xcassets */; };
+		3EA3DDC82C9F15CA00976AEF /* CodeCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */; };
+		3EA3DDD22C9F15CA00976AEF /* CodeCraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDD12C9F15CA00976AEF /* CodeCraftUITests.swift */; };
+		3EA3DDD42C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EA3DDC42C9F15CA00976AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA3DDAA2C9F15C900976AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA3DDB12C9F15C900976AEF;
+			remoteInfo = CodeCraft;
+		};
+		3EA3DDCE2C9F15CA00976AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA3DDAA2C9F15C900976AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA3DDB12C9F15C900976AEF;
+			remoteInfo = CodeCraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EA3DDB22C9F15C900976AEF /* CodeCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftApp.swift; sourceTree = "<group>"; };
+		3EA3DDB72C9F15C900976AEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EA3DDBB2C9F15CA00976AEF /* CodeCraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeCraft.entitlements; sourceTree = "<group>"; };
+		3EA3DDBD2C9F15CA00976AEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EA3DDC32C9F15CA00976AEF /* CodeCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftTests.swift; sourceTree = "<group>"; };
+		3EA3DDCD2C9F15CA00976AEF /* CodeCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3DDD12C9F15CA00976AEF /* CodeCraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftUITests.swift; sourceTree = "<group>"; };
+		3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA3DDAF2C9F15C900976AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDC02C9F15CA00976AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDCA2C9F15CA00976AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EA3DDA92C9F15C900976AEF = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDB42C9F15C900976AEF /* CodeCraft */,
+				3EA3DDC62C9F15CA00976AEF /* CodeCraftTests */,
+				3EA3DDD02C9F15CA00976AEF /* CodeCraftUITests */,
+				3EA3DDB32C9F15C900976AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA3DDB32C9F15C900976AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDB22C9F15C900976AEF /* CodeCraft.app */,
+				3EA3DDC32C9F15CA00976AEF /* CodeCraftTests.xctest */,
+				3EA3DDCD2C9F15CA00976AEF /* CodeCraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA3DDB42C9F15C900976AEF /* CodeCraft */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */,
+				3EA3DDB72C9F15C900976AEF /* ContentView.swift */,
+				3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */,
+				3EA3DDBB2C9F15CA00976AEF /* CodeCraft.entitlements */,
+				3EA3DDBC2C9F15CA00976AEF /* Preview Content */,
+			);
+			path = CodeCraft;
+			sourceTree = "<group>";
+		};
+		3EA3DDBC2C9F15CA00976AEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDBD2C9F15CA00976AEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EA3DDC62C9F15CA00976AEF /* CodeCraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */,
+			);
+			path = CodeCraftTests;
+			sourceTree = "<group>";
+		};
+		3EA3DDD02C9F15CA00976AEF /* CodeCraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDD12C9F15CA00976AEF /* CodeCraftUITests.swift */,
+				3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */,
+			);
+			path = CodeCraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA3DDB12C9F15C900976AEF /* CodeCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA3DDD72C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraft" */;
+			buildPhases = (
+				3EA3DDAE2C9F15C900976AEF /* Sources */,
+				3EA3DDAF2C9F15C900976AEF /* Frameworks */,
+				3EA3DDB02C9F15C900976AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeCraft;
+			productName = CodeCraft;
+			productReference = 3EA3DDB22C9F15C900976AEF /* CodeCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EA3DDC22C9F15CA00976AEF /* CodeCraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA3DDDA2C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraftTests" */;
+			buildPhases = (
+				3EA3DDBF2C9F15CA00976AEF /* Sources */,
+				3EA3DDC02C9F15CA00976AEF /* Frameworks */,
+				3EA3DDC12C9F15CA00976AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA3DDC52C9F15CA00976AEF /* PBXTargetDependency */,
+			);
+			name = CodeCraftTests;
+			productName = CodeCraftTests;
+			productReference = 3EA3DDC32C9F15CA00976AEF /* CodeCraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EA3DDCC2C9F15CA00976AEF /* CodeCraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA3DDDD2C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraftUITests" */;
+			buildPhases = (
+				3EA3DDC92C9F15CA00976AEF /* Sources */,
+				3EA3DDCA2C9F15CA00976AEF /* Frameworks */,
+				3EA3DDCB2C9F15CA00976AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA3DDCF2C9F15CA00976AEF /* PBXTargetDependency */,
+			);
+			name = CodeCraftUITests;
+			productName = CodeCraftUITests;
+			productReference = 3EA3DDCD2C9F15CA00976AEF /* CodeCraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA3DDAA2C9F15C900976AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3EA3DDB12C9F15C900976AEF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3EA3DDC22C9F15CA00976AEF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3EA3DDB12C9F15C900976AEF;
+					};
+					3EA3DDCC2C9F15CA00976AEF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3EA3DDB12C9F15C900976AEF;
+					};
+				};
+			};
+			buildConfigurationList = 3EA3DDAD2C9F15C900976AEF /* Build configuration list for PBXProject "CodeCraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EA3DDA92C9F15C900976AEF;
+			productRefGroup = 3EA3DDB32C9F15C900976AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA3DDB12C9F15C900976AEF /* CodeCraft */,
+				3EA3DDC22C9F15CA00976AEF /* CodeCraftTests */,
+				3EA3DDCC2C9F15CA00976AEF /* CodeCraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA3DDB02C9F15C900976AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3DDBE2C9F15CA00976AEF /* Preview Assets.xcassets in Resources */,
+				3EA3DDBA2C9F15CA00976AEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDC12C9F15CA00976AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDCB2C9F15CA00976AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA3DDAE2C9F15C900976AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3DDB82C9F15C900976AEF /* ContentView.swift in Sources */,
+				3EA3DDB62C9F15C900976AEF /* CodeCraftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDBF2C9F15CA00976AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3DDC82C9F15CA00976AEF /* CodeCraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3DDC92C9F15CA00976AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3DDD42C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift in Sources */,
+				3EA3DDD22C9F15CA00976AEF /* CodeCraftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA3DDC52C9F15CA00976AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA3DDB12C9F15C900976AEF /* CodeCraft */;
+			targetProxy = 3EA3DDC42C9F15CA00976AEF /* PBXContainerItemProxy */;
+		};
+		3EA3DDCF2C9F15CA00976AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA3DDB12C9F15C900976AEF /* CodeCraft */;
+			targetProxy = 3EA3DDCE2C9F15CA00976AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EA3DDD52C9F15CA00976AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EA3DDD62C9F15CA00976AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3EA3DDD82C9F15CA00976AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CodeCraft/CodeCraft.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EA3DDD92C9F15CA00976AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CodeCraft/CodeCraft.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EA3DDDB2C9F15CA00976AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeCraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeCraft";
+			};
+			name = Debug;
+		};
+		3EA3DDDC2C9F15CA00976AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeCraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeCraft";
+			};
+			name = Release;
+		};
+		3EA3DDDE2C9F15CA00976AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeCraft;
+			};
+			name = Debug;
+		};
+		3EA3DDDF2C9F15CA00976AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CU6SR888H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeCraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA3DDAD2C9F15C900976AEF /* Build configuration list for PBXProject "CodeCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3DDD52C9F15CA00976AEF /* Debug */,
+				3EA3DDD62C9F15CA00976AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA3DDD72C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3DDD82C9F15CA00976AEF /* Debug */,
+				3EA3DDD92C9F15CA00976AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA3DDDA2C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3DDDB2C9F15CA00976AEF /* Debug */,
+				3EA3DDDC2C9F15CA00976AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA3DDDD2C9F15CA00976AEF /* Build configuration list for PBXNativeTarget "CodeCraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3DDDE2C9F15CA00976AEF /* Debug */,
+				3EA3DDDF2C9F15CA00976AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EA3DDAA2C9F15C900976AEF /* Project object */;
+}
