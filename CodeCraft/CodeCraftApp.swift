@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct CodeCraftApp: App {
+    
+    init() {
+        let engine = CodeExecutionJsEngine()
+        let repository = CodeExecutionDefaultRepository(engine: engine)
+        
+        DependencyInjector.register(engine as CodeExecutionEngine)
+        DependencyInjector.register(repository as CodeExecutionRepository)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStackFactory.create()
         }
     }
 }

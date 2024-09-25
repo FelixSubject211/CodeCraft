@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5A31DC2CA31100005EA229 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A31DB2CA31100005EA229 /* Injected.swift */; };
+		3E5A31DE2CA3111F005EA229 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A31DD2CA3111F005EA229 /* DependencyInjector.swift */; };
+		3E5A31E12CA311DD005EA229 /* CodeEditorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A31E02CA311DD005EA229 /* CodeEditorFactory.swift */; };
+		3E5A31E32CA31206005EA229 /* CodeOutputFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A31E22CA31206005EA229 /* CodeOutputFactory.swift */; };
+		3E5A31E52CA31255005EA229 /* NavigationStackFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A31E42CA31255005EA229 /* NavigationStackFactory.swift */; };
+		3E9CEAB12CA1AAAF0069BBF4 /* CodeEditorView in Frameworks */ = {isa = PBXBuildFile; productRef = 3E9CEAB02CA1AAAF0069BBF4 /* CodeEditorView */; };
+		3E9CEAB32CA1AAAF0069BBF4 /* LanguageSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 3E9CEAB22CA1AAAF0069BBF4 /* LanguageSupport */; };
+		3E9CEAB62CA1B06E0069BBF4 /*  LanguageConfiguration+Javascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CEAB52CA1B06E0069BBF4 /*  LanguageConfiguration+Javascript.swift */; };
+		3E9CEAB82CA1C62A0069BBF4 /* IPadOSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CEAB72CA1C62A0069BBF4 /* IPadOSRouter.swift */; };
+		3E9CEABA2CA1C68E0069BBF4 /* NavigationStackIPadOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CEAB92CA1C68E0069BBF4 /* NavigationStackIPadOSView.swift */; };
+		3E9CEABD2CA2C4A70069BBF4 /* SplitView in Frameworks */ = {isa = PBXBuildFile; productRef = 3E9CEABC2CA2C4A70069BBF4 /* SplitView */; };
 		3EA3DDB62C9F15C900976AEF /* CodeCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */; };
-		3EA3DDB82C9F15C900976AEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB72C9F15C900976AEF /* ContentView.swift */; };
 		3EA3DDBA2C9F15CA00976AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */; };
 		3EA3DDBE2C9F15CA00976AEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3DDBD2C9F15CA00976AEF /* Preview Assets.xcassets */; };
-		3EA3DDC82C9F15CA00976AEF /* CodeCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */; };
 		3EA3DDD22C9F15CA00976AEF /* CodeCraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDD12C9F15CA00976AEF /* CodeCraftUITests.swift */; };
 		3EA3DDD42C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */; };
+		3EA3DDE32C9F246500976AEF /* CodeExecutionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDE22C9F246500976AEF /* CodeExecutionEngine.swift */; };
+		3EA3DDE52C9F25F800976AEF /* CodeExecutionJsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDE42C9F25F800976AEF /* CodeExecutionJsEngine.swift */; };
+		3EA3DDE72C9F629700976AEF /* CodeExecutionJsEngineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDE62C9F629700976AEF /* CodeExecutionJsEngineTest.swift */; };
+		3EA3DDE92C9FFBB600976AEF /* CodeExecutionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDE82C9FFBB600976AEF /* CodeExecutionRepository.swift */; };
+		3EA3DDEB2C9FFBEE00976AEF /* CodeExecutionDefaultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDEA2C9FFBEE00976AEF /* CodeExecutionDefaultRepository.swift */; };
+		3EA3DDEE2C9FFCB200976AEF /* CodeEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDED2C9FFCB200976AEF /* CodeEditorViewModel.swift */; };
+		3EA3DDF12C9FFD0200976AEF /* CodeOutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDF02C9FFD0200976AEF /* CodeOutputViewModel.swift */; };
+		3EA3DDF32C9FFD7100976AEF /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDF22C9FFD7100976AEF /* CodeEditorView.swift */; };
+		3EA3DDF52C9FFDCE00976AEF /* CodeOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDF42C9FFDCE00976AEF /* CodeOutputView.swift */; };
+		3EA3DDF92CA0061600976AEF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDF82CA0061600976AEF /* Router.swift */; };
+		3EA3DDFB2CA006B100976AEF /* IOSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDFA2CA006B100976AEF /* IOSRouter.swift */; };
+		3EA3DDFE2CA0076700976AEF /* NavigationStackIOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DDFD2CA0076700976AEF /* NavigationStackIOSView.swift */; };
+		3EA3DE012CA025C100976AEF /* Subject+AssertReceivedOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DE002CA025C100976AEF /* Subject+AssertReceivedOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +56,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E5A31DB2CA31100005EA229 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		3E5A31DD2CA3111F005EA229 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		3E5A31E02CA311DD005EA229 /* CodeEditorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorFactory.swift; sourceTree = "<group>"; };
+		3E5A31E22CA31206005EA229 /* CodeOutputFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOutputFactory.swift; sourceTree = "<group>"; };
+		3E5A31E42CA31255005EA229 /* NavigationStackFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackFactory.swift; sourceTree = "<group>"; };
+		3E9CEAB52CA1B06E0069BBF4 /*  LanguageConfiguration+Javascript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LanguageConfiguration+Javascript.swift"; sourceTree = "<group>"; };
+		3E9CEAB72CA1C62A0069BBF4 /* IPadOSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPadOSRouter.swift; sourceTree = "<group>"; };
+		3E9CEAB92CA1C68E0069BBF4 /* NavigationStackIPadOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackIPadOSView.swift; sourceTree = "<group>"; };
 		3EA3DDB22C9F15C900976AEF /* CodeCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftApp.swift; sourceTree = "<group>"; };
-		3EA3DDB72C9F15C900976AEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EA3DDBB2C9F15CA00976AEF /* CodeCraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeCraft.entitlements; sourceTree = "<group>"; };
 		3EA3DDBD2C9F15CA00976AEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EA3DDC32C9F15CA00976AEF /* CodeCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftTests.swift; sourceTree = "<group>"; };
 		3EA3DDCD2C9F15CA00976AEF /* CodeCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA3DDD12C9F15CA00976AEF /* CodeCraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftUITests.swift; sourceTree = "<group>"; };
 		3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EA3DDE22C9F246500976AEF /* CodeExecutionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionEngine.swift; sourceTree = "<group>"; };
+		3EA3DDE42C9F25F800976AEF /* CodeExecutionJsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionJsEngine.swift; sourceTree = "<group>"; };
+		3EA3DDE62C9F629700976AEF /* CodeExecutionJsEngineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionJsEngineTest.swift; sourceTree = "<group>"; };
+		3EA3DDE82C9FFBB600976AEF /* CodeExecutionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionRepository.swift; sourceTree = "<group>"; };
+		3EA3DDEA2C9FFBEE00976AEF /* CodeExecutionDefaultRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionDefaultRepository.swift; sourceTree = "<group>"; };
+		3EA3DDED2C9FFCB200976AEF /* CodeEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorViewModel.swift; sourceTree = "<group>"; };
+		3EA3DDF02C9FFD0200976AEF /* CodeOutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOutputViewModel.swift; sourceTree = "<group>"; };
+		3EA3DDF22C9FFD7100976AEF /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		3EA3DDF42C9FFDCE00976AEF /* CodeOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOutputView.swift; sourceTree = "<group>"; };
+		3EA3DDF82CA0061600976AEF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3EA3DDFA2CA006B100976AEF /* IOSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSRouter.swift; sourceTree = "<group>"; };
+		3EA3DDFD2CA0076700976AEF /* NavigationStackIOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackIOSView.swift; sourceTree = "<group>"; };
+		3EA3DE002CA025C100976AEF /* Subject+AssertReceivedOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject+AssertReceivedOutput.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9CEAB32CA1AAAF0069BBF4 /* LanguageSupport in Frameworks */,
+				3E9CEAB12CA1AAAF0069BBF4 /* CodeEditorView in Frameworks */,
+				3E9CEABD2CA2C4A70069BBF4 /* SplitView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +116,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E5A31D92CA310AB005EA229 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDF62CA0059400976AEF /* CodeExecution */,
+				3EA3DDFC2CA0074400976AEF /* Router */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E5A31DA2CA310D4005EA229 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E9CEAB52CA1B06E0069BBF4 /*  LanguageConfiguration+Javascript.swift */,
+				3E5A31DB2CA31100005EA229 /* Injected.swift */,
+				3E5A31DD2CA3111F005EA229 /* DependencyInjector.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3E5A31DF2CA3119E005EA229 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				3E9CEAB92CA1C68E0069BBF4 /* NavigationStackIPadOSView.swift */,
+				3EA3DDFD2CA0076700976AEF /* NavigationStackIOSView.swift */,
+				3E5A31E42CA31255005EA229 /* NavigationStackFactory.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
 		3EA3DDA92C9F15C900976AEF = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				3EA3DDB52C9F15C900976AEF /* CodeCraftApp.swift */,
-				3EA3DDB72C9F15C900976AEF /* ContentView.swift */,
+				3EA3DDF72CA005A400976AEF /* Screens */,
+				3E5A31D92CA310AB005EA229 /* Services */,
+				3E5A31DA2CA310D4005EA229 /* Utilities */,
 				3EA3DDB92C9F15CA00976AEF /* Assets.xcassets */,
 				3EA3DDBB2C9F15CA00976AEF /* CodeCraft.entitlements */,
 				3EA3DDBC2C9F15CA00976AEF /* Preview Content */,
@@ -115,7 +190,8 @@
 		3EA3DDC62C9F15CA00976AEF /* CodeCraftTests */ = {
 			isa = PBXGroup;
 			children = (
-				3EA3DDC72C9F15CA00976AEF /* CodeCraftTests.swift */,
+				3EA3DDFF2CA0259F00976AEF /* Extensions */,
+				3EA3DDE62C9F629700976AEF /* CodeExecutionJsEngineTest.swift */,
 			);
 			path = CodeCraftTests;
 			sourceTree = "<group>";
@@ -127,6 +203,65 @@
 				3EA3DDD32C9F15CA00976AEF /* CodeCraftUITestsLaunchTests.swift */,
 			);
 			path = CodeCraftUITests;
+			sourceTree = "<group>";
+		};
+		3EA3DDEC2C9FFC9C00976AEF /* CodeEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDED2C9FFCB200976AEF /* CodeEditorViewModel.swift */,
+				3EA3DDF22C9FFD7100976AEF /* CodeEditorView.swift */,
+				3E5A31E02CA311DD005EA229 /* CodeEditorFactory.swift */,
+			);
+			path = CodeEditor;
+			sourceTree = "<group>";
+		};
+		3EA3DDEF2C9FFCF200976AEF /* CodeOutput */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDF02C9FFD0200976AEF /* CodeOutputViewModel.swift */,
+				3EA3DDF42C9FFDCE00976AEF /* CodeOutputView.swift */,
+				3E5A31E22CA31206005EA229 /* CodeOutputFactory.swift */,
+			);
+			path = CodeOutput;
+			sourceTree = "<group>";
+		};
+		3EA3DDF62CA0059400976AEF /* CodeExecution */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDEA2C9FFBEE00976AEF /* CodeExecutionDefaultRepository.swift */,
+				3EA3DDE82C9FFBB600976AEF /* CodeExecutionRepository.swift */,
+				3EA3DDE22C9F246500976AEF /* CodeExecutionEngine.swift */,
+				3EA3DDE42C9F25F800976AEF /* CodeExecutionJsEngine.swift */,
+			);
+			path = CodeExecution;
+			sourceTree = "<group>";
+		};
+		3EA3DDF72CA005A400976AEF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3E5A31DF2CA3119E005EA229 /* NavigationStack */,
+				3EA3DDEC2C9FFC9C00976AEF /* CodeEditor */,
+				3EA3DDEF2C9FFCF200976AEF /* CodeOutput */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3EA3DDFC2CA0074400976AEF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DDF82CA0061600976AEF /* Router.swift */,
+				3EA3DDFA2CA006B100976AEF /* IOSRouter.swift */,
+				3E9CEAB72CA1C62A0069BBF4 /* IPadOSRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3EA3DDFF2CA0259F00976AEF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3DE002CA025C100976AEF /* Subject+AssertReceivedOutput.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +280,11 @@
 			dependencies = (
 			);
 			name = CodeCraft;
+			packageProductDependencies = (
+				3E9CEAB02CA1AAAF0069BBF4 /* CodeEditorView */,
+				3E9CEAB22CA1AAAF0069BBF4 /* LanguageSupport */,
+				3E9CEABC2CA2C4A70069BBF4 /* SplitView */,
+			);
 			productName = CodeCraft;
 			productReference = 3EA3DDB22C9F15C900976AEF /* CodeCraft.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +357,10 @@
 				Base,
 			);
 			mainGroup = 3EA3DDA92C9F15C900976AEF;
+			packageReferences = (
+				3E9CEAAF2CA1AAAF0069BBF4 /* XCRemoteSwiftPackageReference "CodeEditorView" */,
+				3E9CEABB2CA2C4A70069BBF4 /* XCRemoteSwiftPackageReference "SplitView" */,
+			);
 			productRefGroup = 3EA3DDB32C9F15C900976AEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +403,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA3DDB82C9F15C900976AEF /* ContentView.swift in Sources */,
+				3E9CEAB82CA1C62A0069BBF4 /* IPadOSRouter.swift in Sources */,
+				3E5A31E52CA31255005EA229 /* NavigationStackFactory.swift in Sources */,
+				3EA3DDE52C9F25F800976AEF /* CodeExecutionJsEngine.swift in Sources */,
+				3EA3DDEE2C9FFCB200976AEF /* CodeEditorViewModel.swift in Sources */,
+				3EA3DDF92CA0061600976AEF /* Router.swift in Sources */,
+				3EA3DDF12C9FFD0200976AEF /* CodeOutputViewModel.swift in Sources */,
+				3EA3DDFB2CA006B100976AEF /* IOSRouter.swift in Sources */,
+				3EA3DDF32C9FFD7100976AEF /* CodeEditorView.swift in Sources */,
+				3E9CEAB62CA1B06E0069BBF4 /*  LanguageConfiguration+Javascript.swift in Sources */,
+				3EA3DDE32C9F246500976AEF /* CodeExecutionEngine.swift in Sources */,
 				3EA3DDB62C9F15C900976AEF /* CodeCraftApp.swift in Sources */,
+				3EA3DDF52C9FFDCE00976AEF /* CodeOutputView.swift in Sources */,
+				3EA3DDEB2C9FFBEE00976AEF /* CodeExecutionDefaultRepository.swift in Sources */,
+				3EA3DDFE2CA0076700976AEF /* NavigationStackIOSView.swift in Sources */,
+				3EA3DDE92C9FFBB600976AEF /* CodeExecutionRepository.swift in Sources */,
+				3E5A31E12CA311DD005EA229 /* CodeEditorFactory.swift in Sources */,
+				3E9CEABA2CA1C68E0069BBF4 /* NavigationStackIPadOSView.swift in Sources */,
+				3E5A31DE2CA3111F005EA229 /* DependencyInjector.swift in Sources */,
+				3E5A31DC2CA31100005EA229 /* Injected.swift in Sources */,
+				3E5A31E32CA31206005EA229 /* CodeOutputFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +430,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA3DDC82C9F15CA00976AEF /* CodeCraftTests.swift in Sources */,
+				3EA3DE012CA025C100976AEF /* Subject+AssertReceivedOutput.swift in Sources */,
+				3EA3DDE72C9F629700976AEF /* CodeExecutionJsEngineTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +595,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -442,7 +605,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,8 +634,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -480,7 +644,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CodeCraft.CodeCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,6 +782,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E9CEAAF2CA1AAAF0069BBF4 /* XCRemoteSwiftPackageReference "CodeEditorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchakravarty/CodeEditorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.0;
+			};
+		};
+		3E9CEABB2CA2C4A70069BBF4 /* XCRemoteSwiftPackageReference "SplitView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevengharris/SplitView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E9CEAB02CA1AAAF0069BBF4 /* CodeEditorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E9CEAAF2CA1AAAF0069BBF4 /* XCRemoteSwiftPackageReference "CodeEditorView" */;
+			productName = CodeEditorView;
+		};
+		3E9CEAB22CA1AAAF0069BBF4 /* LanguageSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E9CEAAF2CA1AAAF0069BBF4 /* XCRemoteSwiftPackageReference "CodeEditorView" */;
+			productName = LanguageSupport;
+		};
+		3E9CEABC2CA2C4A70069BBF4 /* SplitView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E9CEABB2CA2C4A70069BBF4 /* XCRemoteSwiftPackageReference "SplitView" */;
+			productName = SplitView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EA3DDAA2C9F15C900976AEF /* Project object */;
 }
